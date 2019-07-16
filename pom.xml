@@ -6,7 +6,7 @@
 
   <groupId>net.pwall.maven</groupId>
   <artifactId>maven-kotlin</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
   <name>${project.groupId}:${project.artifactId}</name>
   <description>
     Parent POM for Maven Kotlin projects
