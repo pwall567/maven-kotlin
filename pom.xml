@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>net.pwall.maven</groupId>
   <artifactId>maven-kotlin</artifactId>
-  <version>2.1</version>
+  <version>3.0</version>
   <name>${project.groupId}:${project.artifactId}</name>
   <description>
     Parent POM for Maven Kotlin projects
@@ -16,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <kotlin.version>1.4.0</kotlin.version>
-    <dokka.version>1.4.0</dokka.version>
+    <kotlin.version>1.5.20</kotlin.version>
+    <dokka.version>1.5.0</dokka.version>
   </properties>
 
   <licenses>
@@ -49,9 +48,9 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>jcenter</id>
-      <name>JCenter</name>
-      <url>https://jcenter.bintray.com/</url>
+      <id>central</id>
+      <name>Maven Central</name>
+      <url>https://repo1.maven.org/maven2/</url>
     </pluginRepository>
   </pluginRepositories>
 
@@ -85,7 +84,8 @@
           <version>${kotlin.version}</version>
           <configuration>
             <jvmTarget>1.8</jvmTarget>
-            <languageVersion>1.4</languageVersion>
+            <languageVersion>1.5</languageVersion>
+            <apiVersion>1.5</apiVersion>
           </configuration>
           <executions>
             <execution>
