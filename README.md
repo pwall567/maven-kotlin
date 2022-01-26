@@ -6,7 +6,7 @@ Parent POM for Maven Kotlin projects
 
 Includes plugin definitions for deployment to Sonatype OSSRH.
 
-The current version is 3.1 - this version uses Kotlin 1.5.20.
+The current version is 4.0 - this version uses Kotlin 1.6.10.
 
 ## Usage
 
@@ -14,10 +14,10 @@ The current version is 3.1 - this version uses Kotlin 1.5.20.
   <parent>
     <groupId>net.pwall.maven</groupId>
     <artifactId>maven-kotlin</artifactId>
-    <version>3.1</version>
+    <version>4.0</version>
   </parent>
 ```
 
 Peter Wall
 
-2022-01-26
+2022-01-27
