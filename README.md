@@ -1,12 +1,13 @@
 # maven-kotlin
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Kotlin](https://img.shields.io/static/v1?label=Kotlin&message=v1.7.21&color=7f52ff&logo=kotlin&logoColor=7f52ff)](https://github.com/JetBrains/kotlin/releases/tag/v1.7.21)
 
 Parent POM for Maven Kotlin projects
 
 Includes plugin definitions for deployment to Sonatype OSSRH.
 
-The current version is 4.0 - this version uses Kotlin 1.6.10.
+The current version is 5.0 - this version uses Kotlin 1.7.21.
 
 ## Usage
 
@@ -14,10 +15,10 @@ The current version is 4.0 - this version uses Kotlin 1.6.10.
   <parent>
     <groupId>net.pwall.maven</groupId>
     <artifactId>maven-kotlin</artifactId>
-    <version>4.0</version>
+    <version>5.0</version>
   </parent>
 ```
 
 Peter Wall
 
-2022-01-27
+2023-04-15
